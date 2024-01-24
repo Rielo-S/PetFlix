@@ -1,5 +1,5 @@
 
-import "./styles.js" 
+//import "./styles.js" 
 
 import { Main } from "../../components/Main"
 import { Header } from "../../components/Header"
