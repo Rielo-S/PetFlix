@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
- export const Tittle = styled.h1`
+const Tittle = styled.h1`
     width: 562px;
     height: 112px;
     top: 295px;
@@ -13,3 +13,5 @@ import styled from 'styled-components';
     text-align: center;
     color: #000000;
     `;
+
+export default Tittle;

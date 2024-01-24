@@ -1,15 +1,19 @@
 
 
-import { Tittle } from './styles.js'
+import Tittle  from './styles.js'
 
-export function Header() {
+function Header() {
     return(
 
        <>
 
        <Tittle>PETFLIX</Tittle>
+
+    
        
        
        </>
     )
 }
+
+export default Header;
