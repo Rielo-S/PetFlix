@@ -4,9 +4,11 @@ export function Cachorros(){
     return(
     <>
     
-      <video width="720" controls className="video" loop autoPlay src="https://www.youtube.com/watch?v=rsTLyukvxGU" type="video/mp4"></video>
-   
-    
+      <iframe width="866" height="487" src="https://www.youtube.com/embed/rsTLyukvxGU"
+       title="CACHORROS TIERNOS Y BONITOS 🧡 ¡Vídeos de Perros Cachorros! Lunacreciente"
+        frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+         allowfullscreen></iframe>
+         
     </>
     )
   }
