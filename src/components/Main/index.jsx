@@ -1,13 +1,26 @@
-function Main(){
+import { Link } from 'react-router-dom'
+
+import { ImagesWrapper, ImageContainer, RoundedImage, Text }  from './styles.js'
+
+export function Main(){
     <>
 
-    <img src="proyeto_final/images/cachorro.jfif" alt="" width={100} height={100}/>
-    <img src="proyeto_final/images/gato.jfif" alt="" />
-    
-    
-    
+        <ImagesWrapper>
+          <ImageContainer>
+            <Link to="/cachorros">
+              <RoundedImage src="PetFlix/src/images/cachorro.jpeg" alt="foto-cachorro" />
+            </Link>
+            <Text>Cachorrildo</Text>
+          </ImageContainer>
+          <ImageContainer>
+            <Link to="/gatos">
+              <RoundedImage src="PetFlix/src/images/gatito.jpeg" alt="foto-gato" />
+            </Link>
+            <Text>Gatildo</Text>
+          </ImageContainer>
+        </ImagesWrapper>
+
     </>
 
 }
 
-export default Main;

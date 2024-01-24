@@ -1,19 +1,21 @@
 
 
-import Tittle  from './styles.js'
+import { Wrapper, Tittle }  from './styles.js'
 
-function Header() {
+
+export function Header() {
     return(
 
        <>
+       <Wrapper>
 
-       <Tittle>PETFLIX</Tittle>
+          <Tittle>PETFLIX</Tittle>
 
-    
+       </Wrapper>
+
        
        
        </>
     )
 }
 
-export default Header;

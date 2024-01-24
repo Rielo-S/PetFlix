@@ -1,22 +1,21 @@
 
-//import "./styles.js" 
+import { Wrapper }  from './styles.js'
 
-import Main from "../../components/Main"
-import Header from "../../components/Header"
-
-
+import { Header } from "../../components/Header"
+import { Main } from "../../components/Main"
 
 export function Home(){
   return(
   <>
-
-  <Header/>
-
-  <Main/>
-
+    <Wrapper>
  
+        <Header/>
+
+        <Main/>
 
 
+     </Wrapper>
+ 
   
   </>
   )
