@@ -1,6 +1,6 @@
 import { Cachorros } from "../../components/Cachorros"
 
-export function Cachorrinhos(){
+export function Gatos(){
     return(
     <>
       
