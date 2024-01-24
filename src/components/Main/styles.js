@@ -16,4 +16,6 @@ export const RoundedImage = styled.img`
 
 export const Text = styled.p`
   margin-top: 10px;
+  color: white;
+  text-align: center;
 `;
