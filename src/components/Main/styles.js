@@ -12,10 +12,13 @@ export const ImageContainer = styled.div`
 
 export const RoundedImage = styled.img`
   border-radius: 10px;
+  width: 224px;
+  height: 225px;
 `;
 
 export const Text = styled.p`
   margin-top: 10px;
   color: white;
   text-align: center;
+  font-size: 25px
 `;
