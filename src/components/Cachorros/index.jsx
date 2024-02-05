@@ -15,10 +15,8 @@ export function Cachorros(){
        <Link to="/" style={{textDecoration: 'none'}}>
           <Text>&laquo; Voltar</Text>
        </Link>  
-
-       
-         
+    
     </>
-    )
-  }
+  )
+}
   

@@ -7,14 +7,12 @@ export function Header() {
     return(
 
        <>
-       <Wrapper>
+         <Wrapper>
 
-          <Tittle>PETFLIX</Tittle>
+           <Tittle>PETFLIX</Tittle>
 
-       </Wrapper>
-
-       
-       
+         </Wrapper> 
+         
        </>
     )
 }

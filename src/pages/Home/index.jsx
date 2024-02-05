@@ -13,10 +13,8 @@ export function Home(){
 
         <Main/>
 
-
      </Wrapper>
- 
-  
+     
   </>
   )
 }

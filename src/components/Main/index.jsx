@@ -5,9 +5,6 @@ import { ImagesWrapper, ImageContainer, RoundedImage, Text }  from './styles.js'
 import cachorroImage from './images/cachorro.jpeg';
 import gatitoImage from './images/gatito.jpeg';
 
-
-
-
 export function Main(){
 
   return (
@@ -21,6 +18,7 @@ export function Main(){
         </Link>
         <Text>Cachorrildo</Text>
       </ImageContainer>
+      
       <ImageContainer>
         <Link to="/gatos">
           <RoundedImage src={gatitoImage} alt="foto-gato" />
@@ -33,6 +31,5 @@ export function Main(){
 
 
   )
-   
 }
 
